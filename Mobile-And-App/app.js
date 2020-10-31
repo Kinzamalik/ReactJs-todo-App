@@ -97,28 +97,96 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Calculator
-function getNumber(num){
+// function getNumber(num){
 
-    // console.log(num)
-    var result =  document.getElementById("result")
-    result.value += num;
+//     // console.log(num)
+//     var result =  document.getElementById("result")
+//     result.value += num;
+// }
+
+
+// function clearResult(){
+//     var result =  document.getElementById("result")
+//     result.value += "";
+
+// }
+
+
+
+
+// function getResult(){
+//     var result =  document.getElementById("result")
+//     result.value = eval(result.value)
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     // console.log(num)
+//     var result =  document.getElementById("result")
+//     result.value += num;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ReadMore(){
+    var text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, tenetur?"
+var paragraph =  document.getElementById('pera') 
+paragraph.innerHTML = text
 }
 
 
-function clearResult(){
-    var result =  document.getElementById("result")
-    result.value += "";
-
-}
 
 
 
 
-function getResult(){
-    var result =  document.getElementById("result")
-    result.value = eval(result.value)
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
